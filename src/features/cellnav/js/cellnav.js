@@ -845,7 +845,8 @@
               }
               // Only add the ngAria stuff it will be used
               if (usesAria) {
-                addAriaLiveRegion();
+                // Removed this to prevent error on console when using ngAria and strings with spaces on cells 
+                // addAriaLiveRegion();
               }
             }
           };
